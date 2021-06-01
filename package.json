@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,17 @@
   "bugs": {
     "url": "https://github.com/RndReact21/node-front-end/issues"
   },
-  "homepage": "https://github.com/RndReact21/node-front-end#readme"
+  "homepage": "https://github.com/RndReact21/node-front-end#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "crypto-random-string": "^4.0.0",
+    "random-hex-color-generator": "^1.0.12",
+    "uuid": "^8.3.2"
+  }
 }
